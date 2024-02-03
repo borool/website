@@ -68,7 +68,7 @@ const config = {
         title: 'My site',
         logo: {
           alt: 'My site Logo',
-          src: 'img/logo.svg',
+          src: 'img/capybara.svg',
         },
         items: [
           {
