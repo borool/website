@@ -3,6 +3,7 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
+/*
   {
     title: '',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
@@ -11,6 +12,7 @@ const FeatureList = [
       </>
     ),
   },
+*/
   {
     title: '',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
@@ -19,7 +21,8 @@ const FeatureList = [
         This site includes examples of my commercial work and examples of my writing
       </>
     ),
-  },
+  }
+/*
   {
     title: '',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
@@ -28,11 +31,12 @@ const FeatureList = [
       </>
     ),
   },
+*/
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--1')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
