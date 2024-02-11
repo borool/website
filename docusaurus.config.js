@@ -104,7 +104,7 @@ const config = {
                 to: '/docs/commercial',
               },
               {
-                label: 'Commercial work',
+                label: 'Freelance work',
                 to: '/docs/freelance',
               },
             ],
