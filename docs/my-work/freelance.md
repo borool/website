@@ -10,7 +10,7 @@ Things I wrote while working as a freelance writer:
 
 Download the file here:
 
-[Database development service.pdf](../assets/assets/Database%20development%20service.pdf)
+[Database development service.pdf](../assets/Database%20development%20service.pdf)
 
 ## Landing page for a Canadian e-commerce platform.
 
