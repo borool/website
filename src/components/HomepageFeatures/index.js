@@ -5,9 +5,10 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '',
+    Svg: require('@site/static/img/capybara.svg').default,
     description: (
       <>
-        This is my first Docusaurus site. Here I show examples of my <a href='../../docs/commercial'>commercial</a> and <a href='../../docs/freelance'>freelance</a> works.
+        This is my first Docusaurus site. Here I show examples of my <a href='../../docs/my-work/commercial'>commercial</a> and <a href='../../docs/my-work/freelance'>freelance</a> works.
       </>
     ),
   },
