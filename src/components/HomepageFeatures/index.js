@@ -5,7 +5,6 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '',
-    Svg: require('@site/static/img/capybara.svg').default,
     description: (
       <>
         This is my first Docusaurus site. Here I show examples of my <a href='../../docs/my-work/commercial'>commercial</a> and <a href='../../docs/my-work/freelance'>freelance</a> works.
@@ -14,7 +13,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--12')}>
       <div className="text--center padding-horiz--md">
