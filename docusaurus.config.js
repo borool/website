@@ -77,10 +77,14 @@ const config = {
             label: 'About',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: 'docs/my-work/commercial',
             position: 'left',
-            label: 'My work',
+            label: 'Commercial work',
+          },
+          {
+            to: 'docs/my-work/freelance',
+            position: 'left',
+            label: 'Freelance work',
           },
           {
             href: 'https://github.com/borool/website',
@@ -101,11 +105,11 @@ const config = {
               },
               {
                 label: 'Commercial work',
-                to: '/docs/commercial',
+                to: '/docs/my-work/commercial',
               },
               {
                 label: 'Freelance work',
-                to: '/docs/freelance',
+                to: '/docs/my-work/freelance',
               },
             ],
           },
