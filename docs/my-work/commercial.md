@@ -28,9 +28,9 @@ During my work in iDalko I wrote user documentation in Confluence and wrote UX c
 
 Here are some examples of user docs I wrote:
 
-[How to Sync Any Entity in Exalate for ServiceNow](https://docs.idalko.com/exalate/x/bgZ1Aw)
+[How to Sync Any Entity in Exalate for ServiceNow](https://docs.exalate.com/docs/how-to-sync-any-entity-in-exalate-for-servicenow)
 
-[How to Set Up Log In with OAuth Tokens in Exalate for](https://docs.idalko.com/exalate/x/IgExAg)
+[How to Set Up Log In with OAuth Tokens in Exalate for](https://docs.exalate.com/docs/set-up-log-in-with-oauth-tokens-in-exalate-for-servicenow)
 
 [Removing HTML Tags from text in Exalate for Azure Devops](https://docs.exalate.com/docs/removing-html-tags-from-text-in-exalate-for-azure-devops)
 
