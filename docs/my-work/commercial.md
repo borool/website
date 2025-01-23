@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Viseven
 
-In Viseven, I write user docs, API documentation, and UX copy for a web application, a Vue-based framework, and a CLI tool.
+In Viseven, I wrote user and developer docs, API documentation, and UX copy for a web application, a Vue-based framework, and a CLI tool.
 
 Some examples of my work:
 
