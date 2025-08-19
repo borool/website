@@ -7,7 +7,7 @@ const FeatureList = [
     title: '',
     description: (
       <>
-        This is my first Docusaurus site. Here I show examples of my <a href='../../docs/my-work/commercial'>commercial</a> and <a href='../../docs/my-work/freelance'>freelance</a> works.
+        I am a technical writer from Lviv, Ukraine. This site is my technical writing portfolio. Here I provide examples of my <a href='../../docs/my-work/commercial'>commercial</a> and <a href='../../docs/my-work/freelance'>freelance</a> works.
       </>
     ),
   },
