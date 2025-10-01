@@ -38,4 +38,12 @@ To install NVM on Windows:
 
     ![](../assets/nvm-setup-install.png)
 
-After the installation is finished...
+As a result, nvm is installed to your computer.
+
+To check the nvm version, open CMD, Powershell, or other command line operator and run:
+
+```
+nvm --version
+```
+
+If the installation is successful, the nvm version is displayed in the terminal. For example, `1.2.2`
