@@ -87,6 +87,11 @@ const config = {
             label: 'Freelance work',
           },
           {
+            to: 'docs/my-work/articles',
+            position: 'left',
+            label: 'Articles',
+          },
+          {
             href: 'https://github.com/borool/website',
             label: 'GitHub',
             position: 'right',
