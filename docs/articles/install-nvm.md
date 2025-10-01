@@ -46,4 +46,4 @@ To check the nvm version, open CMD, Powershell, or other command line operator a
 nvm --version
 ```
 
-If the installation is successful, the nvm version is displayed in the terminal. For example, `1.2.2`
+If the installation is successful, the nvm version is displayed in the terminal. For example, `1.2.2`.
