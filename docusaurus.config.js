@@ -87,7 +87,7 @@ const config = {
             label: 'Freelance work',
           },
           {
-            to: 'docs/my-work/articles',
+            to: 'docs/articles',
             position: 'left',
             label: 'Articles',
           },

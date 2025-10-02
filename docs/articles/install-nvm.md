@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # How to install NVM on Windows
@@ -47,3 +47,7 @@ nvm --version
 ```
 
 If the installation is successful, the nvm version is displayed in the terminal. For example, `1.2.2`.
+
+## See also
+
+[Update Node.js version on Windows](./update-node-version.md)
