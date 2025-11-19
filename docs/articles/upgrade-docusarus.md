@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Upgrade docusaurus version
+# Upgrade Docusaurus version
 
 To upgrade Docusaurus packages with the latest version, run the following command:
 
