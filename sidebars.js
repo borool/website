@@ -20,6 +20,16 @@ const sidebars = {
   
   tutorialSidebar: [
     'about',
+    'my-work/commercial',
+    'my-work/freelance',
+    'articles/README'
+  ],
+
+};
+
+/** 
+  tutorialSidebar: [
+    'about',
     {
       type: 'category',
       label: 'My work',
@@ -28,8 +38,6 @@ const sidebars = {
       ],
     },
     'articles/README'
-  ],
-
-};
+*/
 
 export default sidebars;
