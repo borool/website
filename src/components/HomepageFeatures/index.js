@@ -11,6 +11,22 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Commercial works',
+    description: (
+      <>
+        My <a href='../../docs/my-work/commercial'>commercial</a> works.
+      </>
+    ),
+  },
+  {
+    title: 'Freelance works',
+    description: (
+      <>
+        My <a href='../../docs/my-work/freelance'>freelance</a> works.
+      </>
+    ),
+  },
 ];
 
 function Feature({title, description}) {
