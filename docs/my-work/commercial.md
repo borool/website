@@ -10,6 +10,8 @@ In Viseven, I wrote user and developer docs, API documentation, and UX copy for 
 
 Some examples of my work:
 
+[eWizard CLI installation](https://help.ewizard.io/en/articles/6829546-installation)
+
 [Localization in Business admin | Viseven Help Center](https://help.ewizard.io/en/articles/7865979-localization-in-business-admin)
 
 [Module combinations | Viseven Help Center](https://help.ewizard.io/en/articles/8451096-module-combinations)
