@@ -22,10 +22,22 @@ const sidebars = {
     'about',
     'my-work/commercial',
     'my-work/freelance',
-    'articles/README'
+    {
+      type: 'category',
+      label: 'Articles',
+      link: {
+        type: 'generated-index',
+        title: 'Articles',
+        description: 'Learn about the most important Docusaurus concepts!',
+        slug: 'articles',
+      },
+      items: ['articles/install-nvm', 'articles/update-node-version', 'articles/update-yarn-version', 'articles/upgrade-docusaurus'],
+    }
   ],
 
 };
+
+// Try this: https://docusaurus.io/docs/sidebar/items#sidebar-item-category
 
 /** 
   tutorialSidebar: [
