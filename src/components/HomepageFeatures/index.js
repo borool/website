@@ -27,7 +27,7 @@ const FeatureList = [
   {
     title: 'Articles',
     Svg: require('@site/static/img/heart-svgrepo-com.svg').default,
-    link: '/docs/articles/README',
+    link: '/docs/articles/',
     description: (
       <>
         Articles I wrote for personal use.
