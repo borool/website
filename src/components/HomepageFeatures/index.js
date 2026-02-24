@@ -1,45 +1,58 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
     title: 'Commercial works',
-    Svg: require('../../../static/img/tie-fashion-necktie-accessory-suit-elegance-clothes-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/imac-svgrepo-com.svg').default,
+    link: '/docs/my-work/commercial',
     description: (
       <>
-        <a href='../../docs/my-work/commercial'>Articles</a> I wrote while working for specific companies.
+        Articles I wrote for my job.
       </>
     ),
   },
   {
     title: 'Freelance works',
+    Svg: require('@site/static/img/file-3-svgrepo-com.svg').default,
+    link: '/docs/my-work/freelance',
     description: (
       <>
-        <a href='../../docs/my-work/freelance'>Articles</a> I wrote as a freelancer.
+        Articles I wrote as a freelancer.
       </>
     ),
   },
   {
     title: 'Articles',
+    Svg: require('@site/static/img/heart-svgrepo-com.svg').default,
+    link: '/docs/articles/README',
     description: (
       <>
-        <a href='../../docs/my-work/freelance'>Articles</a> I wrote for personal use and to show my writing style.
+        Articles I wrote for personal use.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+      {/* Wrap everything in a Link */}
+      <Link to={link} className={styles.featureLink}>
+        <div className="text--center">
+          {Svg ? (
+            <Svg className={styles.featureSvg} role="img" />
+          ) : (
+            <div className={styles.placeholder} /> // Fallback if Svg is missing
+          )}
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
+      </Link>
     </div>
   );
 }
