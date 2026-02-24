@@ -4,18 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '',
-    description: (
-      <>
-        I am a technical writer from Lviv, Ukraine. This site is my technical writing portfolio. Here I provide examples of my <a href='../../docs/my-work/commercial'>commercial</a> and <a href='../../docs/my-work/freelance'>freelance</a> works.
-      </>
-    ),
-  },
-  {
     title: 'Commercial works',
+    Svg: require('../../../static/img/tie-fashion-necktie-accessory-suit-elegance-clothes-svgrepo-com.svg').default,
     description: (
       <>
-        My <a href='../../docs/my-work/commercial'>commercial</a> works.
+        <a href='../../docs/my-work/commercial'>Articles</a> I wrote while working for specific companies.
       </>
     ),
   },
@@ -23,15 +16,26 @@ const FeatureList = [
     title: 'Freelance works',
     description: (
       <>
-        My <a href='../../docs/my-work/freelance'>freelance</a> works.
+        <a href='../../docs/my-work/freelance'>Articles</a> I wrote as a freelancer.
+      </>
+    ),
+  },
+  {
+    title: 'Articles',
+    description: (
+      <>
+        <a href='../../docs/my-work/freelance'>Articles</a> I wrote for personal use and to show my writing style.
       </>
     ),
   },
 ];
 
-function Feature({title, description}) {
+function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--12')}>
+    <div className={clsx('col col--4')}>
+      <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
+      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

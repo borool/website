@@ -18,20 +18,15 @@ const sidebars = {
 
   // But you can create a sidebar manually
   
-  tutorialSidebar: [
+  mySidebar: [
     'about',
     'my-work/commercial',
     'my-work/freelance',
     {
       type: 'category',
       label: 'Articles',
-      link: {
-        type: 'generated-index',
-        title: 'Articles',
-        description: 'Learn about the most important Docusaurus concepts!',
-        slug: 'articles',
-      },
-      items: ['articles/install-nvm', 'articles/update-node-version', 'articles/update-yarn-version', 'articles/upgrade-docusaurus'],
+      link: {type: 'doc', id: 'articles/README'},
+      items: ['articles/install-nvm', 'articles/update-node-version', 'articles/upgrade-docusaurus'],
     }
   ],
 
