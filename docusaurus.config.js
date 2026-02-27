@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My documentation site',
+  title: 'My portfolio',
   // tagline: 'My documentation site',
   favicon: 'img/favicon.ico',
 
@@ -115,6 +115,10 @@ const config = {
               {
                 label: 'Freelance work',
                 to: '/docs/my-work/freelance',
+              },
+              {
+                label: 'Articles',
+                to: '/docs/articles',
               },
             ],
           },
