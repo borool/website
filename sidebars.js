@@ -26,7 +26,7 @@ const sidebars = {
       type: 'category',
       label: 'Articles',
       link: {type: 'doc', id: 'articles/README'},
-      items: ['articles/install-nvm', 'articles/update-node-version', 'articles/upgrade-docusaurus'],
+      items: ['articles/install-nvm', 'articles/update-node-version', 'articles/upgrade-docusaurus', 'articles/install-curl'],
     }
   ],
 

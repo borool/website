@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# How to install NVM on Windows
+# Install NVM on Windows
 
 To install NVM on Windows:
 
