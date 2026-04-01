@@ -27,3 +27,8 @@
   --ifm-color-primary-lighter: #eef4fd;
   --ifm-color-primary-lightest: #ffffff;
 }
+
+img {
+  height: auto;
+  width: auto;
+}
